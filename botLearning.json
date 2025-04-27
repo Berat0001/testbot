@@ -1,0 +1,263 @@
+{
+  "qTable": {
+    "idle": {
+      "mine_stone": 0,
+      "mine_ores": 0,
+      "mine_vein": 0,
+      "explore_area": 0,
+      "explore_caves": 0,
+      "gather_wood": 0,
+      "gather_food": 0,
+      "craft_tools": 0,
+      "craft_items": 0,
+      "attack_mobs": 0,
+      "attack_players": 0,
+      "defend_self": 0,
+      "flee_danger": 0,
+      "build_shelter": 0,
+      "build_structure": 0,
+      "follow_player": 0,
+      "idle_scan": 0
+    },
+    "mining": {
+      "mine_stone": 0,
+      "mine_ores": 0,
+      "mine_vein": 0,
+      "explore_area": 0,
+      "explore_caves": 0,
+      "gather_wood": 0,
+      "gather_food": 0,
+      "craft_tools": 0,
+      "craft_items": 0,
+      "attack_mobs": 0,
+      "attack_players": 0,
+      "defend_self": 0,
+      "flee_danger": 0,
+      "build_shelter": 0,
+      "build_structure": 0,
+      "follow_player": 0,
+      "idle_scan": 0
+    },
+    "combat": {
+      "mine_stone": 0,
+      "mine_ores": 0,
+      "mine_vein": 0,
+      "explore_area": 0,
+      "explore_caves": 0,
+      "gather_wood": 0,
+      "gather_food": 0,
+      "craft_tools": 0,
+      "craft_items": 0,
+      "attack_mobs": 0,
+      "attack_players": 0,
+      "defend_self": 0,
+      "flee_danger": 0,
+      "build_shelter": 0,
+      "build_structure": 0,
+      "follow_player": 0,
+      "idle_scan": 0
+    },
+    "gather": {
+      "mine_stone": 0,
+      "mine_ores": 0,
+      "mine_vein": 0,
+      "explore_area": 0,
+      "explore_caves": 0,
+      "gather_wood": 0,
+      "gather_food": 0,
+      "craft_tools": 0,
+      "craft_items": 0,
+      "attack_mobs": 0,
+      "attack_players": 0,
+      "defend_self": 0,
+      "flee_danger": 0,
+      "build_shelter": 0,
+      "build_structure": 0,
+      "follow_player": 0,
+      "idle_scan": 0
+    },
+    "craft": {
+      "mine_stone": 0,
+      "mine_ores": 0,
+      "mine_vein": 0,
+      "explore_area": 0,
+      "explore_caves": 0,
+      "gather_wood": 0,
+      "gather_food": 0,
+      "craft_tools": 0,
+      "craft_items": 0,
+      "attack_mobs": 0,
+      "attack_players": 0,
+      "defend_self": 0,
+      "flee_danger": 0,
+      "build_shelter": 0,
+      "build_structure": 0,
+      "follow_player": 0,
+      "idle_scan": 0
+    },
+    "follow": {
+      "mine_stone": 0,
+      "mine_ores": 0,
+      "mine_vein": 0,
+      "explore_area": 0,
+      "explore_caves": 0,
+      "gather_wood": 0,
+      "gather_food": 0,
+      "craft_tools": 0,
+      "craft_items": 0,
+      "attack_mobs": 0,
+      "attack_players": 0,
+      "defend_self": 0,
+      "flee_danger": 0,
+      "build_shelter": 0,
+      "build_structure": 0,
+      "follow_player": 0,
+      "idle_scan": 0
+    },
+    "build": {
+      "mine_stone": 0,
+      "mine_ores": 0,
+      "mine_vein": 0,
+      "explore_area": 0,
+      "explore_caves": 0,
+      "gather_wood": 0,
+      "gather_food": 0,
+      "craft_tools": 0,
+      "craft_items": 0,
+      "attack_mobs": 0,
+      "attack_players": 0,
+      "defend_self": 0,
+      "flee_danger": 0,
+      "build_shelter": 0,
+      "build_structure": 0,
+      "follow_player": 0,
+      "idle_scan": 0
+    },
+    "explore": {
+      "mine_stone": 0,
+      "mine_ores": 0,
+      "mine_vein": 0,
+      "explore_area": 0,
+      "explore_caves": 0,
+      "gather_wood": 0,
+      "gather_food": 0,
+      "craft_tools": 0,
+      "craft_items": 0,
+      "attack_mobs": 0,
+      "attack_players": 0,
+      "defend_self": 0,
+      "flee_danger": 0,
+      "build_shelter": 0,
+      "build_structure": 0,
+      "follow_player": 0,
+      "idle_scan": 0
+    }
+  },
+  "stateActionMap": {
+    "idle": [
+      "explore_area",
+      "mine_stone",
+      "gather_wood",
+      "gather_food",
+      "craft_tools",
+      "idle_scan"
+    ],
+    "mining": [
+      "mine_stone",
+      "mine_ores",
+      "mine_vein",
+      "explore_caves",
+      "defend_self",
+      "flee_danger"
+    ],
+    "combat": [
+      "attack_mobs",
+      "attack_players",
+      "defend_self",
+      "flee_danger"
+    ],
+    "gather": [
+      "gather_wood",
+      "gather_food",
+      "explore_area",
+      "defend_self"
+    ],
+    "craft": [
+      "craft_tools",
+      "craft_items"
+    ],
+    "follow": [
+      "follow_player",
+      "defend_self"
+    ],
+    "build": [
+      "build_shelter",
+      "build_structure",
+      "gather_wood"
+    ],
+    "explore": [
+      "explore_area",
+      "explore_caves",
+      "mine_ores",
+      "gather_wood",
+      "gather_food",
+      "defend_self"
+    ]
+  },
+  "stateBandit": {
+    "counts": {
+      "idle": 0,
+      "mining": 0,
+      "combat": 0,
+      "gather": 0,
+      "craft": 0,
+      "follow": 0,
+      "build": 0,
+      "explore": 0
+    },
+    "values": {
+      "idle": 0,
+      "mining": 0,
+      "combat": 0,
+      "gather": 0,
+      "craft": 0,
+      "follow": 0,
+      "build": 0,
+      "explore": 0
+    }
+  },
+  "learningParams": {
+    "learningRate": 0.1,
+    "discountFactor": 0.9,
+    "explorationRate": 0.1
+  },
+  "states": [
+    "idle",
+    "mining",
+    "combat",
+    "gather",
+    "craft",
+    "follow",
+    "build",
+    "explore"
+  ],
+  "actions": [
+    "mine_stone",
+    "mine_ores",
+    "mine_vein",
+    "explore_area",
+    "explore_caves",
+    "gather_wood",
+    "gather_food",
+    "craft_tools",
+    "craft_items",
+    "attack_mobs",
+    "attack_players",
+    "defend_self",
+    "flee_danger",
+    "build_shelter",
+    "build_structure",
+    "follow_player",
+    "idle_scan"
+  ]
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft Bot Controller</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Minecraft Bot Controller</h1>
+            <div class="connection-status">
+                <div class="status-badge" id="status-badge">Offline</div>
+                <div class="ws-status" id="ws-status">Disconnected</div>
+            </div>
+        </header>
+
+        <div class="main-content">
+            <div class="panel bot-info">
+                <h2>Bot Status</h2>
+                <div class="dashboard-indicators">
+                    <div class="indicator health-indicator">
+                        <div class="indicator-value" id="dashboard-health">--</div>
+                        <div class="indicator-label">Health</div>
+                    </div>
+                    <div class="indicator food-indicator">
+                        <div class="indicator-value" id="dashboard-food">--</div>
+                        <div class="indicator-label">Food</div>
+                    </div>
+                    <div class="indicator position-indicator">
+                        <div class="indicator-value" id="dashboard-position">--</div>
+                        <div class="indicator-label">Position</div>
+                    </div>
+                </div>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <label>Username:</label>
+                        <span id="bot-username">-</span>
+                    </div>
+                    <div class="info-item">
+                        <label>State:</label>
+                        <span id="bot-state">-</span>
+                    </div>
+                    <div class="info-item">
+                        <label>Health:</label>
+                        <span id="bot-health">-</span>
+                    </div>
+                    <div class="info-item">
+                        <label>Food:</label>
+                        <span id="bot-food">-</span>
+                    </div>
+                    <div class="info-item">
+                        <label>Position:</label>
+                        <span id="bot-position">-</span>
+                    </div>
+                    <div class="info-item">
+                        <label>Server:</label>
+                        <span id="bot-server">-</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel actions">
+                <h2>Controls</h2>
+                <div class="button-group">
+                    <button id="btn-idle" class="action-btn">Idle</button>
+                    <button id="btn-explore" class="action-btn">Explore</button>
+                    <button id="btn-mine" class="action-btn">Mine</button>
+                    <button id="btn-gather" class="action-btn">Gather</button>
+                    <button id="btn-craft" class="action-btn">Craft</button>
+                    <button id="btn-follow" class="action-btn">Follow</button>
+                    <button id="btn-build" class="action-btn">Build</button>
+                </div>
+            </div>
+
+            <div class="panel inventory">
+                <h2>Inventory</h2>
+                <div id="inventory-list" class="inventory-grid">
+                    <p>Loading inventory...</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="chat-section">
+            <h2>Chat</h2>
+            <div id="chat-messages" class="chat-messages">
+                <div class="chat-message">
+                    <span class="chat-timestamp">[00:00:00]</span>
+                    <span class="chat-content">Welcome to the Minecraft Bot Controller!</span>
+                </div>
+            </div>
+            <div class="chat-input-container">
+                <input type="text" id="chat-input" placeholder="Type a message or command..." />
+                <button id="chat-send">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
